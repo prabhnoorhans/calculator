@@ -1,0 +1,72 @@
+<!Doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Calculator v4</title>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<ul id="content">
+			<li id="cal">
+				<div id="resultBlock">
+					<h1 id="result">0</h1>
+				</div>
+				<table id="buttons">
+					<tr id="row1">
+						<td onclick="input('clearEntry')">CE</td>
+						<td onclick="input('clearAll')">C</td>
+						<td onclick="input('del')">&larrb;</td>
+						<td onclick="input('/')">&divide;</td>
+					</tr> 
+					<tr id="row2">
+						<td onclick="input(7)">7</td>
+						<td onclick="input(8)">8</td>
+						<td onclick="input(9)">9</td>
+						<td onclick="input('x')">&Cross;</td>
+					</tr> 
+					<tr id="row3">
+						<td onclick="input(4)">4</td>
+						<td onclick="input(5)">5</td>
+						<td onclick="input(6)">6</td>
+						<td onclick="input('-')">&minus;</td>
+					</tr>
+					<tr id="row4">
+						<td onclick="input(1)">1</td>
+						<td onclick="input(2)">2</td>
+						<td onclick="input(3)">3</td>
+						<td onclick="input('+')">&plus;</td>
+					</tr>
+					<tr id="row5">
+						<td onclick="input('plusMinus')">&#x000B1;</td>
+						<td onclick="input(0)">0</td>
+						<td onclick="input('.')">&period;</td>
+						<td onclick="input('=')">&equals;</td>
+					</tr>
+				</table>
+			</li>
+			<li id="shortC">
+				<h1>SHORTCUTS</h1>
+				<table id="shortcuts">
+					<tr>
+						<td><h4 id="delKEY">delete</h4></td>
+						<td><h4 id="ceKEY">CE</h4></td>
+						<td><h6>Clears the value just entered</h6></td>
+					</tr>
+					<tr>
+						<td><h4 id="escKEY">Esc</h4></td>
+						<td><h4 id="cKEY">C</h4></td>
+						<td><h6>Clears all the values that have been entered</h6></td>
+					</tr>
+					<tr>
+						<td><h4 id="f9KEY">F9</h4></td>
+						<td><h4 id="plusMinusKEY">&#x000B1;</h4></td>
+						<td><h6>Changes the value to be positive or negative</h6></td>
+					</tr>
+				</table>
+			</li>
+		</ul>
+		<script type="text/javascript" src="js/script4.js"></script>
+	</body>
+</html>

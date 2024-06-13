@@ -1,0 +1,177 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#content {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+li {
+	float: left;
+	list-style: none;
+}
+
+table, td {
+	border: none;
+}
+
+#cal {
+	margin: 0 10px 0 0;
+}
+
+#resultBlock {
+	width: 248px;
+	height: 46px;
+	background: #000;
+	text-align: right;
+}
+
+#result {
+	margin: 0 0 0 3px;
+	width: 239px;
+	height: 46px;
+	font-size: 37px;
+	font-weight: 300;
+	color: #fff;
+}
+
+#buttons, #buttons td {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+#buttons {
+	margin: 0;
+	padding: 0;
+	width: 248px;
+	height: 350px;
+	background: #707070;
+}
+
+#buttons td {
+	width: 62px;
+	height: 70px;
+	font-size: 24px;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+}
+
+#buttons td:last-child {
+	background: #FF3B59;	
+}
+
+#row1 td:nth-child(-n+3) {
+	background: #494949;
+}
+
+#shortC {
+	margin: 0;
+	padding: 5px 0 0 10px;
+	width: 290px;
+	height: 401px;
+	background: #FF3B59;
+	color: #fff;
+}
+
+#shortC h1 {
+	margin: 0;
+	font-weight: 400;
+}
+
+#shortcuts {
+	margin: 10px 0 0;
+}
+
+#shortcuts td {
+	margin: 0;
+}
+
+#shortcuts td:nth-child(1) {
+	width: 45px;
+}
+
+#shortcuts td:nth-child(2) {
+	padding: 10px 5px 10px 10px;
+	text-align: right;
+}
+
+#shortcuts td:nth-child(3) {
+	padding: 0 0 0 5px;
+}
+
+#shortcuts td:nth-child(3) h6 {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 170px;
+	font-size: 1em;
+	font-weight: 300;
+	text-align: left;
+}
+
+#delKEY {
+	margin: 0;
+	padding: 5px 4px 3px 0;
+	border: 1.5px solid white;
+	border-radius: 3px;
+	width: 50px;
+	height: 24px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: right;
+}
+
+#ceKEY {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+#escKEY {
+	margin: 0;
+	padding: 3px 0 3px 4px;
+	border: 1.5px solid white;
+	border-radius: 3px;
+	width: 45px;
+	height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}
+
+#cKEY {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	font-size: 24px;
+	font-weight: 300;
+}
+
+#f9KEY {
+	margin: 0;
+	padding: 2px 0 4px;
+	border: 1.5px solid white;
+	border-radius: 3px;
+	width: 50px;
+	height: 18px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: center;
+}
+
+#plusMinusKEY {
+	margin: 0;
+	padding: 0;
+	width: 30px;
+	font-size: 24px;
+	font-weight: 300;	
+}
